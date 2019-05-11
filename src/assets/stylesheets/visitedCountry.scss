@@ -1,0 +1,41 @@
+.visitedCountrySection {
+  .visitedCountryRow {
+    padding: 100px 0;
+    .visitedCountry {
+      margin-bottom: 40px;
+      .visitedCountryItem {
+        height: 100%;
+        box-shadow: 0 4px 22px #c5c0c0;
+        border-bottom-right-radius: 30px;
+        background-color: #ffffff;
+
+        .visitedCountryImg {
+          width: 100%;
+          height: 320px;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 200ms ease 0s;
+          }
+
+          &:hover {
+            img {
+              transform: scale(1.1);
+            }
+          }
+        }
+
+        .visitedCountryInformation {
+          padding: 10px 15px 30px;
+
+          h1 {
+            word-break: break-word;
+          }
+        }
+      }
+    }
+  }
+}

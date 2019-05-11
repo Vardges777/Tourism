@@ -1,0 +1,23 @@
+.offerSection{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 40px auto;
+  .content{
+    background-color: #dcdcff;
+    box-shadow: 0 4px 22px #c5c0c0;
+    height: fit-content;
+    padding: 50px 100px;
+    position: relative;
+    span{
+      width: 20px;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      cursor: pointer;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

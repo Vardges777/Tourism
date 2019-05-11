@@ -1,0 +1,22 @@
+.availableCountrySection{
+  display: flex;
+  .availableCountry{
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    .availableCountryImg{
+      width: 100%;
+      height: 260px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .availableCountryInformation{
+      h1{
+        font-size: 25px;
+      }
+    }
+  }
+}

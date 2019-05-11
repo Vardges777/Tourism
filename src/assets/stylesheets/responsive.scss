@@ -1,0 +1,34 @@
+@media only screen and (max-width: 575px){
+  .visitedCountry {
+    .visitedCountryItem {
+
+      .visitedCountryImg{
+        height: 250px;
+      }
+    }
+  }
+  .advantagesText{
+    h1{
+        font-size: 30px;
+    }
+  }
+  .teamMembers {
+    .teamMember {
+      .teamMemberImage{
+        height: 250px;
+      }
+    }
+  }
+  .offerSection{
+    .content{
+      padding: 20px;
+
+    }
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 20px;
+  }
+}

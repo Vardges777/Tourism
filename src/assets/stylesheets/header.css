@@ -1,0 +1,17 @@
+.navBarLinks {
+  color: #4e4e4e !important;
+  font-size: 20px;
+  padding: 0 30px; }
+  .navBarLinks:hover {
+    text-decoration: none; }
+
+.logo {
+  width: 200px; }
+  .logo img {
+    width: 100%;
+    height: 100%; }
+
+.aboutUs h1 {
+  text-align: center; }
+
+/*# sourceMappingURL=header.css.map */

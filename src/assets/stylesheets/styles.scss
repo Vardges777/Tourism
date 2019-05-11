@@ -1,0 +1,30 @@
+
+@import "fonts";
+
+@import "header";
+
+@import "aboutUs";
+
+@import "visitedCountry";
+
+@import "advantages";
+
+@import "ourTeam";
+
+@import "responsive";
+
+@import "form";
+
+@import "reminderAboutOurOffer";
+
+@import "findCountry";
+
+.wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+p,h1,h2,h3,h4,h5{
+  margin: 0;
+  padding: 0;
+}

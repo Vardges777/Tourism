@@ -1,0 +1,30 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url("../../assets/fonts/MONTSERRAT-EXTRABOLD.TTF");
+}
+@font-face {
+  font-family: MontserratRegular;
+  src: url("../../assets/fonts/MONTSERRAT-REGULAR.TTF");
+}
+@font-face {
+  font-family: MontserratMedium;
+  src: url("../../assets/fonts/MONTSERRAT-MEDIUM.TTF");
+}
+
+.visitedCountryInformation{
+  h1{
+    font-family: MontserratMedium;
+  }
+  .sale{
+    font-family: MontserratBold;
+  }
+  p{
+    font-family: MontserratRegular;
+  }
+}
+
+form{
+  h1{
+    font-family: MontserratBold;
+  }
+}

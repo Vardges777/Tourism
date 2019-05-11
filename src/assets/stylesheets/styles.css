@@ -1,0 +1,169 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url("../../assets/fonts/MONTSERRAT-EXTRABOLD.TTF"); }
+@font-face {
+  font-family: MontserratRegular;
+  src: url("../../assets/fonts/MONTSERRAT-REGULAR.TTF"); }
+@font-face {
+  font-family: MontserratMedium;
+  src: url("../../assets/fonts/MONTSERRAT-MEDIUM.TTF"); }
+.visitedCountryInformation h1 {
+  font-family: MontserratMedium; }
+.visitedCountryInformation .sale {
+  font-family: MontserratBold; }
+.visitedCountryInformation p {
+  font-family: MontserratRegular; }
+
+form h1 {
+  font-family: MontserratBold; }
+
+.navBarLinks {
+  color: #4e4e4e !important;
+  font-size: 20px;
+  padding: 0 30px; }
+  .navBarLinks:hover {
+    text-decoration: none; }
+
+.logo {
+  width: 200px; }
+  .logo img {
+    width: 100%;
+    height: 100%; }
+
+.aboutUs h1 {
+  text-align: center; }
+
+.visitedCountrySection .visitedCountryRow {
+  padding: 100px 0; }
+  .visitedCountrySection .visitedCountryRow .visitedCountry {
+    margin-bottom: 40px; }
+    .visitedCountrySection .visitedCountryRow .visitedCountry .visitedCountryItem {
+      height: 100%;
+      box-shadow: 0 4px 22px #c5c0c0;
+      border-bottom-right-radius: 30px;
+      background-color: #ffffff; }
+      .visitedCountrySection .visitedCountryRow .visitedCountry .visitedCountryItem .visitedCountryImg {
+        width: 100%;
+        height: 320px;
+        overflow: hidden; }
+        .visitedCountrySection .visitedCountryRow .visitedCountry .visitedCountryItem .visitedCountryImg img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 200ms ease 0s; }
+        .visitedCountrySection .visitedCountryRow .visitedCountry .visitedCountryItem .visitedCountryImg:hover img {
+          transform: scale(1.1); }
+      .visitedCountrySection .visitedCountryRow .visitedCountry .visitedCountryItem .visitedCountryInformation {
+        padding: 10px 15px 30px; }
+        .visitedCountrySection .visitedCountryRow .visitedCountry .visitedCountryItem .visitedCountryInformation h1 {
+          word-break: break-word; }
+
+.advantageRow {
+  display: flex; }
+  .advantageRow .advantage {
+    text-align: center; }
+    .advantageRow .advantage h1 {
+      color: red; }
+    .advantageRow .advantage p {
+      color: #8d8d8d; }
+
+.teamMembers {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 15px;
+  background-color: #fbfbfb; }
+  .teamMembers .teamMember .teamMemberImage {
+    width: 100%;
+    height: 300px; }
+    .teamMembers .teamMember .teamMemberImage img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; }
+  .teamMembers .teamMember .teamMemberInformation {
+    background-color: white;
+    padding: 8px 12px; }
+  .teamMembers .teamMember h2 {
+    word-break: break-all;
+    font-size: 20px; }
+  .teamMembers .teamMember h1 {
+    word-break: break-all; }
+
+@media only screen and (max-width: 575px) {
+  .visitedCountry .visitedCountryItem .visitedCountryImg {
+    height: 250px; }
+
+  .advantagesText h1 {
+    font-size: 30px; }
+
+  .teamMembers .teamMember .teamMemberImage {
+    height: 250px; }
+
+  .offerSection .content {
+    padding: 20px; }
+
+  h1 {
+    font-size: 30px; }
+
+  h2 {
+    font-size: 20px; } }
+.formSection {
+  background-color: #e3e3e6; }
+  .formSection form {
+    padding: 30px 0; }
+    .formSection form label input {
+      margin: 5px 10px;
+      outline: 0; }
+    .formSection form label select {
+      outline: 0; }
+    .formSection form button {
+      display: inline-block;
+      background-color: #b9b9c7;
+      padding: 8px 25px;
+      margin: 10px; }
+
+.offerSection {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 40px auto; }
+  .offerSection .content {
+    background-color: #dcdcff;
+    box-shadow: 0 4px 22px #c5c0c0;
+    height: fit-content;
+    padding: 50px 100px;
+    position: relative; }
+    .offerSection .content span {
+      width: 20px;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      cursor: pointer; }
+      .offerSection .content span img {
+        width: 100%; }
+
+.availableCountrySection {
+  display: flex; }
+  .availableCountrySection .availableCountry {
+    width: 400px;
+    padding: 30px;
+    text-align: center; }
+    .availableCountrySection .availableCountry .availableCountryImg {
+      width: 100%;
+      height: 260px; }
+      .availableCountrySection .availableCountry .availableCountryImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .availableCountrySection .availableCountry .availableCountryInformation h1 {
+      font-size: 25px; }
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+p, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=styles.css.map */

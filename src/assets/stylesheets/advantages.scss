@@ -1,0 +1,13 @@
+
+.advantageRow{
+  display: flex;
+  .advantage{
+    text-align: center;
+    h1{
+      color: red;
+    }
+    p{
+      color: #8d8d8d;
+    }
+  }
+}
