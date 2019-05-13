@@ -1,10 +1,17 @@
-.navBarLinks{
-    color: #4e4e4e !important;
-    font-size: 20px;
-    padding: 0 30px;
+a{
     &:hover{
-        text-decoration: none;
+        text-decoration: unset;
     }
+}
+.navbar{
+  a{
+    color:black;
+    padding: 5px 10px;
+  }
+  .currentLink{
+    color: #4545ce;
+    border-bottom: 1px solid #4545ce;
+  }
 }
 
 .logo {

@@ -17,12 +17,15 @@
 form h1 {
   font-family: MontserratBold; }
 
-.navBarLinks {
-  color: #4e4e4e !important;
-  font-size: 20px;
-  padding: 0 30px; }
-  .navBarLinks:hover {
-    text-decoration: none; }
+a:hover {
+  text-decoration: unset; }
+
+.navbar a {
+  color: black;
+  padding: 5px 10px; }
+.navbar .currentLink {
+  color: #4545ce;
+  border-bottom: 1px solid #4545ce; }
 
 .logo {
   width: 200px; }

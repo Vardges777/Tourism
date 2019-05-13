@@ -12,8 +12,8 @@ class App extends Component {
         <Router>
             <div className="App">
                 <Header/>
-                   <Route path="/" exact component={PageContent}/>
-                   <Route path="/findCountry"  component={FindCountry}/>
+                   <Route  path="/" exact component={PageContent}/>
+                   <Route  path="/findCountry"  component={FindCountry}/>
             </div>
         </Router>
 

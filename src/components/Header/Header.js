@@ -1,22 +1,18 @@
 import React from "react";
 import logo from "../../assets/images/logo.png"
 import "../../assets/stylesheets/styles.scss"
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 
 function Header(){
     return(
-        <nav className="navbar navbar-expand-lg navbar-light mx-5 px-5">
-            <Link to="/">
-                 <span>
+        <nav className="navbar navba r-expand-lg navbar-light mx-5 px-5">
+            <NavLink exact activeClassName="currentLink" to="/">
                      Home
-                 </span>
-            </Link>
-            <Link to="/findCountry">
-                 <span>
-                Find Country
-            </span>
-            </Link>
+            </NavLink>
+            <NavLink  activeClassName="currentLink" to="/findCountry">
+                   Find Country
+            </NavLink>
 
         </nav>
     )
