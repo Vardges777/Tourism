@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4d4a2564-31f2-4c34-b37d-20ff58aefea7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/.sass-cache/e9613b341c2132e45bf40f24a0ea39f655a1fe7b/findCountry.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/.sass-cache/e9613b341c2132e45bf40f24a0ea39f655a1fe7b/findCountry.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/findCountry/findCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/findCountry/findCountry.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5461422">
+    <splitter split-orientation="horizontal" split-proportion="0.7624811">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/findCountry/findCountry.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+                <state relative-caret-position="272">
+                  <caret line="50" column="81" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
                   <folding>
                     <element signature="e#0#37#0" expanded="true" />
                   </folding>
@@ -36,13 +37,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
+            <entry file="file://$PROJECT_DIR$/src/components/findCountry/selectedCountry.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="136">
+                  <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -76,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/jokesData.js" />
         <option value="$PROJECT_DIR$/public/header.css" />
         <option value="$PROJECT_DIR$/src/NavBarLinks.js" />
         <option value="$PROJECT_DIR$/src/linksData.js" />
@@ -115,26 +112,27 @@
         <option value="$PROJECT_DIR$/src/components/localStorage/localStorage.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/assets/stylesheets/styles.scss" />
-        <option value="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" />
         <option value="$PROJECT_DIR$/src/components/findCountry/findCountrySrc.js" />
         <option value="$PROJECT_DIR$/src/components/findCountry/findCountryPriec.js" />
         <option value="$PROJECT_DIR$/src/components/findCountry/showValue.js" />
         <option value="$PROJECT_DIR$/src/components/MostVisitedCountry/visitedCountry.js" />
         <option value="$PROJECT_DIR$/src/components/Offer/offer.js" />
         <option value="$PROJECT_DIR$/src/components/pageContent/pageContent.js" />
-        <option value="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/assets/stylesheets/header.scss" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" />
+        <option value="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/selectedCountry.js" />
         <option value="$PROJECT_DIR$/src/components/findCountry/findCountry.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -250,17 +248,19 @@
       <workItem from="1557648124828" duration="4781000" />
       <workItem from="1557664750818" duration="1594000" />
       <workItem from="1557689059274" duration="596000" />
-      <workItem from="1557728711992" duration="1349000" />
+      <workItem from="1557728711992" duration="2108000" />
+      <workItem from="1557750461327" duration="12982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213638000" />
+    <option name="totallyTimeSpent" value="227379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16490166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -275,7 +275,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5709643" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.86252046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -312,7 +312,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/findCountry/CreateItem.js</url>
-          <line>10</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -477,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Form/Form.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -525,34 +518,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/linksData.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Header/NavBarLinks.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/pageContent/pageContent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FindUsInstagram/FindUsInstagram.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
           <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/findCountry/findCountrySrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/findCountry/CreateItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -573,22 +542,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/findCountry/findCountry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/findCountrySrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pageContent/pageContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/CreateItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/selectedCountry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/findCountry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="50" column="81" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -18,5 +18,16 @@
         font-size: 25px;
       }
     }
+    .orderBtn{
+      color: #ffffff;
+      background-color: #4545ce;
+      padding: 10px 30px;
+      border: unset;
+      text-transform: uppercase;
+    }
   }
+}
+.selectedCountry{
+  border: 1px solid red;
+  margin: 10px 20px;
 }
