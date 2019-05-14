@@ -2,10 +2,6 @@ import React,{Component} from "react";
 
 
 class CreateHotelItem extends Component{
-    constructor(){
-        super()
-    }
-
     render(){
     return(
         this.props.availableCountry.map((item)=>{
@@ -19,7 +15,7 @@ class CreateHotelItem extends Component{
                         <p  className="pb-1">{item.airPlaneTicketPrice}</p>
                         <h2 >{item.priceForOneNight}</h2>
                     </div>
-                    <button className="orderBtn" onClick = {this.props.orderClick}>order</button>
+                    <button className="orderBtn" onClick = {this.props.orderClick}>Order</button>
                 </div>
             )
         })

@@ -7,25 +7,23 @@ class CreateOrderCountry extends Component{
             return(
                 <div className="selectedCountry" key = {index}>
                     <div className="selectedCountryName">
-                        <div className="hotelName">
-                            {item.name}
-                        </div>
-
                         <span>
                             Hotem Name
                         </span>
+                        <div className="hotelName">
+                            {item.name}
+                        </div>
                     </div>
                     <div className="selectedCountryPrice">
-                        <div className="hotelPrice">
-                            {item.price}
-                        </div>
-
                         <span>
                             1 Night/person
                         </span>
+                        <div className="hotelPrice">
+                            {item.price}
+                        </div>
                     </div>
                     <button onClick = {this.props.removeSelectedCountry}>
-                        delete
+                        Remove from order list
                     </button>
                 </div>
             )
