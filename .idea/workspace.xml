@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4a2564-31f2-4c34-b37d-20ff58aefea7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/findCountry/FindCountry.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/.sass-cache/e9613b341c2132e45bf40f24a0ea39f655a1fe7b/findCountry.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/.sass-cache/e9613b341c2132e45bf40f24a0ea39f655a1fe7b/findCountry.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/findCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/findCountry/findCountry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/findCountry/findCountry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/findCountry/findCountrySrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/findCountry/AvailableCountrySrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/findCountry/selectedCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/findCountry/CreateOrderCountry.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +21,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7624811">
+    <splitter split-orientation="horizontal" split-proportion="0.47049925">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/findCountry/findCountry.js">
+            <entry file="file://$PROJECT_DIR$/src/components/findCountry/CreateOrderCountry.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="50" column="81" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
-                  <folding>
-                    <element signature="e#0#37#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="323">
+                  <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -35,12 +36,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/findCountry/selectedCountry.js">
+            <entry file="file://$PROJECT_DIR$/src/components/findCountry/RemoveOrderCountry.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+                <state relative-caret-position="17">
+                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -74,14 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/header.css" />
-        <option value="$PROJECT_DIR$/src/NavBarLinks.js" />
-        <option value="$PROJECT_DIR$/src/linksData.js" />
-        <option value="$PROJECT_DIR$/src/header.css" />
-        <option value="$PROJECT_DIR$/src/Header.js" />
-        <option value="$PROJECT_DIR$/src/header.scss" />
-        <option value="$PROJECT_DIR$/src/components/Header/header.scss" />
-        <option value="$PROJECT_DIR$/src/stylesheets/styles.scss" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/MainSlider/createSliderItem.js" />
@@ -121,10 +123,18 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/assets/stylesheets/header.scss" />
-        <option value="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" />
-        <option value="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/showSeacrCountry.js" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/removeCountry.js" />
         <option value="$PROJECT_DIR$/src/components/findCountry/selectedCountry.js" />
         <option value="$PROJECT_DIR$/src/components/findCountry/findCountry.js" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/HandleChange.js" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/FindCountry.js" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/OrderCountry.js" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/ShowSearchCountry.js" />
+        <option value="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/RemoveOrderCountry.js" />
+        <option value="$PROJECT_DIR$/src/components/findCountry/CreateOrderCountry.js" />
       </list>
     </option>
   </component>
@@ -145,32 +155,32 @@
         <subPane>
           <expand>
             <path>
-              <item name="Tourism10-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tourism10-master" type="462c0819:PsiDirectoryNode" />
+              <item name="TourismFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourismFinal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Tourism10-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tourism10-master" type="462c0819:PsiDirectoryNode" />
+              <item name="TourismFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourismFinal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Tourism10-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tourism10-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tourism10-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tourism10-master" type="462c0819:PsiDirectoryNode" />
+              <item name="TourismFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourismFinal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Tourism10-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tourism10-master" type="462c0819:PsiDirectoryNode" />
+              <item name="TourismFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourismFinal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourismFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourismFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="findCountry" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,7 +190,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Tourism10-master/Tourism10-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -250,17 +260,18 @@
       <workItem from="1557689059274" duration="596000" />
       <workItem from="1557728711992" duration="2108000" />
       <workItem from="1557750461327" duration="12982000" />
+      <workItem from="1557840377732" duration="3509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227379000" />
+    <option name="totallyTimeSpent" value="230888000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16490166" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21860817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -282,7 +293,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19062027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -297,7 +308,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.7561375" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.86252046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,16 +330,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js" />
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css" />
     <entry file="file://$PROJECT_DIR$/src/index.css" />
     <entry file="file://$PROJECT_DIR$/src/components/links.js" />
@@ -552,13 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/findCountry/findCountrySrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pageContent/pageContent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -569,34 +563,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/AvailableCountrySrc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/findCountry/CreateItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="357">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/findCountry/selectedCountry.js">
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/ShowSearchCountry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/findCountry/findCountry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="50" column="81" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/OrderCountry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/HandleChange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/FindCountry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/RemoveOrderCountry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/findCountry/CreateOrderCountry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
