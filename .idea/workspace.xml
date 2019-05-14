@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d4a2564-31f2-4c34-b37d-20ff58aefea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/findCountry/FindCountry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/findCountry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/findCountrySrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/findCountry/AvailableCountrySrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/selectedCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/findCountry/CreateOrderCountry.js" afterDir="false" />
-    </list>
+    <list default="true" id="4d4a2564-31f2-4c34-b37d-20ff58aefea7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +15,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/findCountry/CreateOrderCountry.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
+                <state relative-caret-position="12">
                   <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
                 </state>
               </provider>
@@ -138,11 +126,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1768" />
+    <option name="y" value="64" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -260,16 +248,15 @@
       <workItem from="1557689059274" duration="596000" />
       <workItem from="1557728711992" duration="2108000" />
       <workItem from="1557750461327" duration="12982000" />
-      <workItem from="1557840377732" duration="3509000" />
+      <workItem from="1557840377732" duration="3757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230888000" />
+    <option name="totallyTimeSpent" value="231136000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21860817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -286,7 +273,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.86252046" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.86252046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -624,7 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/findCountry/CreateOrderCountry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="12">
           <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
