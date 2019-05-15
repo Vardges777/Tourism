@@ -1,16 +1,23 @@
-import React from "react"
+import React from "react";
 import CountrySrc from "./AvailableCountrySrc";
 
 function ShowSearchCountry () {
+    const {
+        countryPrice,
+        searchCountry
+    } = this.state;
+
+    let availableCountryFound = [];
+    let availablePriceCountry = [];
+
     Object.keys(CountrySrc).forEach((key)=>{
-        if(key == this.state.searchCountry){
-            this.setState({
-                availableCountry:CountrySrc[key]
-            })
+        if(key == searchCountry){
+            availableCountryFound = CountrySrc[key];
         }
     });
-    let availablePriceCountry = [];
-    const searchPrice = Number(this.state.countryPrice);
+
+    const searchPrice = Number(countryPrice);
+
     Object.keys(CountrySrc).forEach((item)=>{
         CountrySrc[item].forEach((evt)=>{
             if (searchPrice<evt.priceForOneNight){
@@ -19,10 +26,14 @@ function ShowSearchCountry () {
         })
     });
 
-    const intersection = this.state.countrySearchPrice.filter(element => this.state.availableCountry.includes(element));
     this.setState({
         countrySearchPrice:availablePriceCountry,
-        filterCountryResult:intersection
+        availableCountry:availableCountryFound,
+    },() => {
+        const intersection = this.state.countrySearchPrice.filter(element => this.state.availableCountry.includes(element));
+        this.setState({
+            filterCountryResult: intersection,
+        })
     })
 };
 

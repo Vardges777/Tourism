@@ -6,9 +6,8 @@ class  MoneyCount extends Component{
         this.props.orderCountyList.map((item)=>{
             money = money + (item.price * this.props.personCount * this.props.nightCount)
         })
-
         return(
-            <div className="information">
+            <div className="finalInformationSection">
                 <div className="travellingInformation">
                     Travellers count {this.props.personCount},You want {this.props.nightCount} night
                 </div>

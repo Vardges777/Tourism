@@ -2,31 +2,34 @@ import React from "react"
 
 function InputPart(props){
     return(
-        <div className="inputPart">
-            <div className="inputBlock">
+        <div className="row inputPartSection">
+            <div className="col-12 col-md-2 inputBlock">
                 <span>
-                    Country Name
+                    Country Name(London,Berlin,Parish)
                 </span>
-                <input type="text" name="searchCountry" onChange = {props.click}  placeholder="Country Name"/>
+                <input type="text" name="searchCountry" onChange = {props.inputChange}  placeholder="Country Name"/>
             </div>
-            <div className="inputBlock">
+            <div className="col-12 col-md-2 inputBlock">
                 <span>
                     1 Night price more than
                 </span>
-                <input type="text" name="countryPrice"  onChange = {props.click}  placeholder="More Than"/>
+                <input type="text" name="countryPrice"  onChange = {props.inputChange}  placeholder="0$"/>
             </div>
-            <div className="inputBlock">
+            <div className="col-12 col-md-2 inputBlock">
                 <span>
-                    Person Count
+                    People Count
                 </span>
-                <input type="text" name="personNumber"  onChange = {props.click}  placeholder="Person Count"/>
+                <input type="text" name="personNumber"  onChange = {props.inputChange}  placeholder="1"/>
             </div>
-           <div className="inputBlock">
+           <div className="col-12 col-md-2 inputBlock">
                <span>
-                   Night Count
+                   Nights Count
                </span>
-               <input type="text" name="nightCount"    onChange = {props.click}  placeholder="Night Count"/>
+               <input type="text" name="nightCount"    onChange = {props.inputChange}  placeholder="1"/>
            </div>
+            <div className=" inputBlock">
+                <input type="submit" onClick={props.searchBtn} value="Show Search Country"/>
+            </div>
         </div>
     )
 }

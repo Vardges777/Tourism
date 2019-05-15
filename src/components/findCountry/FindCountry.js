@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import CreateHotelItem from "./CreateItem";
+import CreateCountryItem from "./CreateItem";
 import CreateOrderCountry from "./CreateOrderCountry";
 import Order from "./OrderCountry";
 import ShowSearchCountry from "./ShowSearchCountry";
@@ -27,30 +27,35 @@ class FindCountry extends Component{
         this.ShowSearchCountry = ShowSearchCountry.bind(this);
         this.HandleChange = HandleChange.bind(this);
     }
-
-
+    confirm = ()=>{
+        console.log(this.state.selectedCountryList)
+    }
     render(){
-        console.log(this.state.selectedCountryList);
         return(
-            <div className="findCountrySection">
-              <InputPart click = {this.HandleChange}/>
-                <div className="availableCountrySection">
-                    <CreateHotelItem
-                        availableCountry = {this.state.availableCountry}
+            <div className="container-fluid findCountry">
+              <InputPart
+                  inputChange = {this.HandleChange}
+                  searchBtn = {this.ShowSearchCountry}
+              />
+                <div className="row availableCountrySection">
+                    <CreateCountryItem
+                        availableCountry = {this.state.filterCountryResult}
                         countrySearchPrice = {this.state.countrySearchPrice}
                         orderClick = {this.Order}
                       />
                 </div>
-                <CreateOrderCountry
-                    selectedCountryList = {this.state.selectedCountryList}
-                    removeSelectedCountry = {this.RemoveSelectedCountry}
-                />
+                <div className="selectedCountrySection">
+                    <CreateOrderCountry
+                        selectedCountryList = {this.state.selectedCountryList}
+                        removeSelectedCountry = {this.RemoveSelectedCountry}
+                    />
+                </div>
                 <MoneyCount
                     personCount = {this.state.personNumber}
                     nightCount = {this.state.nightCount}
                     orderCountyList = {this.state.selectedCountryList}
                 />
-                <button onClick = {this.ShowSearchCountry}>Show Search Country</button>
+                <button onClick = {this.confirm}>Confirm</button>
             </div>
         )
 

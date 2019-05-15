@@ -19,8 +19,11 @@ class CreateOrderCountry extends Component{
                             1 Night/person
                         </span>
                         <div className="hotelPrice">
-                            {item.price}
+                            {item.price}$
                         </div>
+                    </div>
+                    <div>
+                        {item.location}
                     </div>
                     <button onClick = {this.props.removeSelectedCountry}>
                         Remove from order list
