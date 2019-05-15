@@ -9,8 +9,8 @@ function ShowSearchCountry () {
             })
         }
     });
-    let availablePriceCountry=[];
-    const searchPrice=Number(this.state.countryPrice);
+    let availablePriceCountry = [];
+    const searchPrice = Number(this.state.countryPrice);
     Object.keys(CountrySrc).forEach((item)=>{
         CountrySrc[item].forEach((evt)=>{
             if (searchPrice<evt.priceForOneNight){

@@ -6,6 +6,7 @@ import ShowSearchCountry from "./ShowSearchCountry";
 import RemoveSelectedCountry from "./RemoveOrderCountry";
 import HandleChange from "./HandleChange";
 import MoneyCount from "./MoneyCount"
+import InputPart from "./InputPart"
 import "../../assets/stylesheets/styles.scss";
 
 class FindCountry extends Component{
@@ -29,10 +30,10 @@ class FindCountry extends Component{
 
 
     render(){
+        console.log(this.state.selectedCountryList);
         return(
-            <div>
-                <input type="text" name="searchCountry" onChange = {this.HandleChange}  placeholder="Country Name"/>
-                <input type="text" name="countryPrice"  onChange = {this.HandleChange}  placeholder="More Than"/>
+            <div className="findCountrySection">
+              <InputPart click = {this.HandleChange}/>
                 <div className="availableCountrySection">
                     <CreateHotelItem
                         availableCountry = {this.state.availableCountry}
@@ -44,14 +45,12 @@ class FindCountry extends Component{
                     selectedCountryList = {this.state.selectedCountryList}
                     removeSelectedCountry = {this.RemoveSelectedCountry}
                 />
-                <input type="text" name="personNumber" onChange={this.HandleChange} placeholder="Person Count"/>
-                <input type="text" name="nightCount"   onChange={this.HandleChange} placeholder="Night Count"/>
                 <MoneyCount
-                    personCount={this.state.personNumber}
-                    nightCount={this.state.nightCount}
-                    orderCountyList={this.state.selectedCountryList}
+                    personCount = {this.state.personNumber}
+                    nightCount = {this.state.nightCount}
+                    orderCountyList = {this.state.selectedCountryList}
                 />
-                <button onClick = {this.ShowSearchCountry}>Check</button>
+                <button onClick = {this.ShowSearchCountry}>Show Search Country</button>
             </div>
         )
 

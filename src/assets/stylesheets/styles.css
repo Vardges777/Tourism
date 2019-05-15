@@ -144,48 +144,79 @@ a:hover {
       .offerSection .content span img {
         width: 100%; }
 
-.availableCountrySection {
-  display: flex; }
-  .availableCountrySection .availableCountry {
-    width: 400px;
-    padding: 30px;
-    text-align: center; }
-    .availableCountrySection .availableCountry .availableCountryImg {
-      width: 100%;
-      height: 260px; }
-      .availableCountrySection .availableCountry .availableCountryImg img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; }
-    .availableCountrySection .availableCountry .availableCountryInformation h1 {
-      font-size: 25px; }
-    .availableCountrySection .availableCountry .orderBtn {
-      color: #ffffff;
-      background-color: #4545ce;
-      padding: 10px 30px;
-      border: unset;
-      text-transform: uppercase; }
-
-.selectedCountry {
-  background-color: #ebebf3;
-  display: flex;
-  justify-content: space-between;
-  margin: 30px 20px;
-  padding: 15px;
-  box-shadow: 0 4px 10px #c0c1c5; }
-  .selectedCountry .selectedCountryName, .selectedCountry .selectedCountryPrice {
+.findCountrySection {
+  text-align: center; }
+  .findCountrySection .availableCountrySection {
     display: flex;
-    flex-direction: column;
-    color: grey;
-    font-size: 25px; }
-    .selectedCountry .selectedCountryName span, .selectedCountry .selectedCountryPrice span {
-      font-weight: bold;
-      font-size: 20px;
-      color: black; }
-  .selectedCountry button {
-    background-color: #2c89b7;
-    color: white;
-    padding: 10px 35px;
+    justify-content: center; }
+    .findCountrySection .availableCountrySection .availableCountry {
+      width: 400px;
+      padding: 30px;
+      text-align: center; }
+      .findCountrySection .availableCountrySection .availableCountry .availableCountryImg {
+        width: 100%;
+        height: 260px; }
+        .findCountrySection .availableCountrySection .availableCountry .availableCountryImg img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      .findCountrySection .availableCountrySection .availableCountry .availableCountryInformation h1 {
+        font-size: 25px; }
+      .findCountrySection .availableCountrySection .availableCountry button {
+        color: #ffffff;
+        background-color: #0077cc;
+        padding: 10px 30px;
+        border: unset;
+        text-transform: uppercase; }
+  .findCountrySection .selectedCountry {
+    background-color: #ebebf3;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+    padding: 15px;
+    box-shadow: 0 4px 10px #c0c1c5; }
+    .findCountrySection .selectedCountry .selectedCountryName, .findCountrySection .selectedCountry .selectedCountryPrice {
+      display: flex;
+      flex-direction: column;
+      color: grey;
+      font-size: 25px; }
+      .findCountrySection .selectedCountry .selectedCountryName span, .findCountrySection .selectedCountry .selectedCountryPrice span {
+        font-weight: bold;
+        font-size: 20px;
+        color: black; }
+    .findCountrySection .selectedCountry button {
+      background-color: #2c89b7;
+      color: white;
+      padding: 10px 35px;
+      border: unset; }
+  .findCountrySection .inputPart {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; }
+    .findCountrySection .inputPart .inputBlock {
+      display: flex;
+      flex-direction: column;
+      margin: 0 20px; }
+      .findCountrySection .inputPart .inputBlock span {
+        margin-bottom: 10px; }
+      .findCountrySection .inputPart .inputBlock input {
+        border: 3px solid #febb02;
+        padding: 10px 35px 10px 10px;
+        outline: 0; }
+  .findCountrySection .information {
+    margin: 30px 0; }
+    .findCountrySection .information .travellingInformation {
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold; }
+    .findCountrySection .information .tourCost {
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold; }
+  .findCountrySection button {
+    padding: 10px 15px;
+    background-color: #003580;
+    color: #ffffff;
     border: unset; }
 
 .wrapper {
