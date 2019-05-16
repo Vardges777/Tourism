@@ -5,7 +5,7 @@ function InputPart(props){
         <div className="row inputPartSection">
             <div className="col-12 col-md-2 inputBlock">
                 <span>
-                    Country Name(London,Berlin,Parish)
+                    Country Name(England,France,Germany)
                 </span>
                 <input type="text" name="searchCountry" onChange = {props.inputChange}  placeholder="Country Name"/>
             </div>
@@ -13,19 +13,19 @@ function InputPart(props){
                 <span>
                     1 Night price more than
                 </span>
-                <input type="text" name="countryPrice"  onChange = {props.inputChange}  placeholder="0$"/>
+                <input type="number" name="countryPrice"  onChange = {props.inputChange}  placeholder="0$"/>
             </div>
             <div className="col-12 col-md-2 inputBlock">
                 <span>
                     People Count
                 </span>
-                <input type="text" name="personNumber"  onChange = {props.inputChange}  placeholder="1"/>
+                <input type="number" name="personNumber"  onChange = {props.inputChange}  placeholder="1"/>
             </div>
            <div className="col-12 col-md-2 inputBlock">
                <span>
                    Nights Count
                </span>
-               <input type="text" name="nightCount"    onChange = {props.inputChange}  placeholder="1"/>
+               <input type="number" name="nightCount"    onChange = {props.inputChange}  placeholder="1"/>
            </div>
             <div className=" inputBlock">
                 <input type="submit" onClick={props.searchBtn} value="Show Search Country"/>

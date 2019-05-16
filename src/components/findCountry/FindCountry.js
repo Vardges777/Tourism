@@ -5,7 +5,7 @@ import Order from "./OrderCountry";
 import ShowSearchCountry from "./ShowSearchCountry";
 import RemoveSelectedCountry from "./RemoveOrderCountry";
 import HandleChange from "./HandleChange";
-import MoneyCount from "./MoneyCount"
+import CalculatePrice from "./CalculatePrice"
 import InputPart from "./InputPart"
 import "../../assets/stylesheets/styles.scss";
 
@@ -29,7 +29,7 @@ class FindCountry extends Component{
     }
     confirm = ()=>{
         console.log(this.state.selectedCountryList)
-    }
+    };
     render(){
         return(
             <div className="container-fluid findCountry">
@@ -44,13 +44,13 @@ class FindCountry extends Component{
                         orderClick = {this.Order}
                       />
                 </div>
-                <div className="selectedCountrySection">
+                <div className="row selectedCountrySection">
                     <CreateOrderCountry
                         selectedCountryList = {this.state.selectedCountryList}
                         removeSelectedCountry = {this.RemoveSelectedCountry}
                     />
                 </div>
-                <MoneyCount
+                <CalculatePrice
                     personCount = {this.state.personNumber}
                     nightCount = {this.state.nightCount}
                     orderCountyList = {this.state.selectedCountryList}

@@ -1,4 +1,22 @@
+@media only screen and (max-width: 991px){
+  .selectedCountry {
+    flex-direction: column;
+    .selectedHotelInform {
+      margin-bottom: 25px;
+    }
+    button {
+      padding: 10px 28px !important;
+    }
+  }
+}
 @media only screen and (max-width: 768px) {
+  .offerSection {
+    width: 100% !important;
+    padding:0 20px;
+    .content {
+        padding:50px 20px !important;
+    }
+  }
   .findCountry {
     .inputPartSection {
       .inputBlock {
@@ -15,16 +33,6 @@
         }
       }
     }
-    .selectedCountry {
-      flex-direction: column;
-
-      .selectedCountryPrice, .selectedCountryName {
-        margin-bottom: 25px;
-      }
-      button {
-        padding: 10px 28px !important;
-      }
-    }
     .finalInformationSection {
       .travellingInformation {
         font-size: 20px !important;
@@ -39,7 +47,6 @@
 @media only screen and (max-width: 575px){
   .visitedCountry {
     .visitedCountryItem {
-
       .visitedCountryImg{
         height: 250px;
       }
@@ -55,12 +62,6 @@
       .teamMemberImage{
         height: 250px;
       }
-    }
-  }
-  .offerSection{
-    .content{
-      padding: 20px;
-
     }
   }
   h1{

@@ -6,7 +6,7 @@ import {NavLink} from "react-router-dom"
 
 function Header(){
     return(
-        <nav className="navbar navba r-expand-lg navbar-light mx-5 px-5">
+        <nav className="navbar navba r-expand-lg navbar-light px-5">
             <NavLink exact activeClassName="currentLink" to="/">
                      Home
             </NavLink>

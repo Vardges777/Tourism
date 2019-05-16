@@ -12,13 +12,14 @@ class CreateCountryItem extends Component{
                     </div>
                     <div className="availableCountryInformation">
                         <h1 className="py-2">{item.name}</h1>
+                        <div className="hotelLocation">
+                            {item.location}
+                        </div>
                         <div className="hotelPrice">
                             <span>1Night/1person  - </span>
                             <h2>{item.priceForOneNight}$</h2>
                         </div>
-                        <div>
-                            {item.location}
-                        </div>
+
                     </div>
                     <button className="orderBtn" onClick = {this.props.orderClick}>Order</button>
                 </div>

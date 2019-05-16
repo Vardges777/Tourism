@@ -17,12 +17,16 @@ class FindUsInstagram extends Component{
         localStorage.setItem("name",storage);
         if (localStorage["name"]==="true"){
             application=(
-                <div className="offerSection text-center">
-                    <div className="content">
-                        <span onClick={this.deleteOffer}><img src="http://cdn.onlinewebfonts.com/svg/img_377892.png" alt=""/></span>
-                        <h1 className="text-center">
-                          You can Find us on instagram
-                        </h1>
+                <div className="container-fluid offerSection text-center">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="content">
+                                <span onClick={this.deleteOffer}><img src="http://cdn.onlinewebfonts.com/svg/img_377892.png" alt=""/></span>
+                                <h1 className="text-center">
+                                    You can Find us on instagram
+                                </h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
             )

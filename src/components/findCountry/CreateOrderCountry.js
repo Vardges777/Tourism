@@ -5,29 +5,34 @@ class CreateOrderCountry extends Component{
         return(
         this.props.selectedCountryList.map((item,index)=>{
             return(
-                <div className="selectedCountry" key = {index}>
-                    <div className="selectedCountryName">
+                <div className="col-12" key = {index}>
+                    <div className="selectedCountry">
+                        <div className="selectedHotelInform">
                         <span>
                             Hotem Name
                         </span>
-                        <div className="hotelName">
-                            {item.name}
+                            <div className="hotelName">
+                                {item.name}
+                            </div>
                         </div>
-                    </div>
-                    <div className="selectedCountryPrice">
+                        <div className="selectedHotelInform">
                         <span>
                             1 Night/person
                         </span>
-                        <div className="hotelPrice">
-                            {item.price}$
+                            <div className="hotelPrice">
+                                {item.price}$
+                            </div>
                         </div>
+                        <div className="selectedHotelInform">
+                        <span>
+                            Hotel Location
+                        </span>
+                            {item.location}
+                        </div>
+                        <button onClick = {this.props.removeSelectedCountry}>
+                            Remove from order list
+                        </button>
                     </div>
-                    <div>
-                        {item.location}
-                    </div>
-                    <button onClick = {this.props.removeSelectedCountry}>
-                        Remove from order list
-                    </button>
                 </div>
             )
         })
