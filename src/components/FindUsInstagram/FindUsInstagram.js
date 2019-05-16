@@ -2,7 +2,7 @@ import React,{Component} from "react"
 class FindUsInstagram extends Component{
     constructor(){
         super();
-        this.state={
+        this.state = {
             open:true
         }
     }
@@ -12,18 +12,18 @@ class FindUsInstagram extends Component{
         })
     };
     render() {
-        let storage=this.state.open;
-        let application=null;
-        localStorage.setItem("name",storage);
-        if (localStorage["name"]==="true"){
+        let storage = this.state.open;
+        let application = null;
+        localStorage.setItem("popUp",storage);
+        if (localStorage["popUp"]==="true"){
             application=(
                 <div className="container-fluid offerSection text-center">
                     <div className="row">
                         <div className="col-12">
                             <div className="content">
-                                <span onClick={this.deleteOffer}><img src="http://cdn.onlinewebfonts.com/svg/img_377892.png" alt=""/></span>
+                                <span onClick = {this.deleteOffer}><img src="http://cdn.onlinewebfonts.com/svg/img_377892.png" alt=""/></span>
                                 <h1 className="text-center">
-                                    You can find us on instagram
+                                    You can find us on Instagram
                                 </h1>
                             </div>
                         </div>

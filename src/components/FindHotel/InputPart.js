@@ -1,11 +1,12 @@
 import React from "react"
 
+
 function InputPart(props){
     return(
         <div className="row inputPartSection">
             <div className="col-12 col-md-2 inputBlock">
                 <span>
-                    Country Name(England,France,Germany)
+                    Country Name(England,France,Germany,Spain)
                 </span>
                 <input type="text" name="searchCountry" onChange = {props.inputChange}  placeholder="Country Name"/>
             </div>

@@ -4,7 +4,6 @@ import VisitedCountry from "./visitedCountry"
 import visitedCountrySrc from "./visitedCountrySrc"
 
 
-
 function MostVisitedCountry(){
     const visitedCountry=visitedCountrySrc.map(item=>{
         return(
@@ -16,7 +15,7 @@ function MostVisitedCountry(){
         backgroundRepeat:"no-repeat",
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
-    }
+    };
     return(
         <div className="container-fluid visitedCountrySection mt-5 pt-5" style={countrySectionStyle}>
             <div className="row justify-content-center visitedCountryRow">

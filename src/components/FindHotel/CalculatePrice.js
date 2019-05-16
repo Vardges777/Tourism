@@ -1,5 +1,6 @@
 import React,{Component} from "react"
 
+
 class  CalculatePrice extends Component{
     render() {
         let price=0;

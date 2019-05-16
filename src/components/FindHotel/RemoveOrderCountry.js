@@ -1,5 +1,6 @@
 import React from "react"
 
+
 function RemoveSelectedCountry(event){
     var removeCountryName = event.target.parentElement.children[0].children[1].innerHTML;
     var removeCountryItem = this.state.selectedCountryList;

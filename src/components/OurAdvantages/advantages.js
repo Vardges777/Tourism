@@ -6,18 +6,17 @@ import "../../assets/stylesheets/styles.scss";
 class OurAdvantages extends Component{
     constructor(){
         super();
-        this.state={
+        this.state = {
             open:false,
         };
-        this.showContent=this.showContent.bind(this);
     }
-    showContent(){
-       const showContent=this.state.open;
+    showContent = () =>{
+       const showContent = this.state.open;
        this.setState({open:!showContent});
-    }
+    };
     render(){
-        let advantagesList=null;
-        const btnStyle= {
+        let advantagesList = null;
+        const btnStyle = {
             display:"inlineBlock",
             width:"140px",
             height:"60px",
@@ -26,10 +25,9 @@ class OurAdvantages extends Component{
             transition: "1s",
             outline:"0",
             backgroundColor: this.state.open ? "#eeca00" : "white",
-
         };
         if (this.state.open){
-            advantagesList=(
+            advantagesList = (
                 <div className="col-12 justify-content-center advantageRow my-4 ">
                     <div className="row">
                         {advantagesSrc.map((advantageItem)=>{
@@ -46,7 +44,6 @@ class OurAdvantages extends Component{
                 </div>
             )
         }
-
         return(
             <div className="container-fluid mt-5">
                 <div className="row align-items-center flex-column">
@@ -54,7 +51,7 @@ class OurAdvantages extends Component{
                         <h1 className="text-center">{advantagesText[0].text}</h1>
                     </div>
                         {advantagesList}
-                       <button onClick={this.showContent} style={btnStyle}>Advantages</button>
+                       <button onClick = {this.showContent} style = {btnStyle}>Advantages</button>
                 </div>
             </div>
         )

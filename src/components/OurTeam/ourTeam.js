@@ -3,17 +3,16 @@ import "../../assets/stylesheets/styles.scss";
 
 
 class OurTeam extends Component{
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {
             data: [],
             finalNameSurname:``,
         };
-        this.createItem=this.createItem.bind(this)
-    }
+    };
     componentDidMount() {
-       setTimeout(()=>  this.apiGet());
-    }
+       setTimeout(() =>  this.apiGet());
+    };
     apiGet() {
         const url = "https://jsonplaceholder.typicode.com/users";
         fetch(url, {
@@ -25,7 +24,7 @@ class OurTeam extends Component{
                 });
             }
         });
-    }
+    };
     createItem = () => {
         return this.state.data.map((item, index) => {
             return (
@@ -39,11 +38,9 @@ class OurTeam extends Component{
                         <h2 key={index + 1}>{item.username} </h2>
                     </div>
                 </div>
-
             )
         })
     };
-
     render() {
         return (
             <div className="container-fluid teamMembers mt-5">

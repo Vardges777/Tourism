@@ -1,5 +1,6 @@
 import React,{Component} from "react"
 
+
 class Form extends Component{
     constructor(){
         super();
@@ -12,13 +13,12 @@ class Form extends Component{
             travelWidth:"",
             travelersNumber:""
         };
-        this.inputChange=this.inputChange.bind(this);
     }
 
-    inputChange(event){
+    inputChange = (event)=>{
         const {name,value,type,checked} = event.target;
         type === "checkbox" ? this.setState({[name]:checked}) : this.setState({[name]: value});
-    }
+    };
     render() {
         return (
             <div className="container-fluid formSection">
@@ -30,28 +30,27 @@ class Form extends Component{
                                 <label htmlFor="">
                                     <input
                                         type="text"
-                                        value={this.state.firstName}
+                                        value = {this.state.firstName}
                                         name="firstName"
                                         placeholder="First Name"
-                                        onChange={this.inputChange}
+                                        onChange = {this.inputChange}
                                     />
                                     <input
                                         type="number"
-                                        value={this.state.telephone}
+                                        value = {this.state.telephone}
                                         name="telephone"
                                         placeholder="Telephone"
-                                        onChange={this.inputChange}
+                                        onChange = {this.inputChange}
                                     />
                                 </label>
                             </div>
-
                             <div className="visa">
                                 <label htmlFor="">Do you have visa?
                                     <input
                                         type="checkbox"
                                         name="visa"
-                                        checked={this.state.visa}
-                                        onChange={this.inputChange}
+                                        checked = {this.state.visa}
+                                        onChange = {this.inputChange}
                                     />
                                 </label>
                             </div>
@@ -61,8 +60,8 @@ class Form extends Component{
                                         type="radio"
                                         name="travelWidth"
                                         value="travelAlone"
-                                        checked={this.state.travelWidth === "travelAlone"}
-                                        onChange={this.inputChange}
+                                        checked = {this.state.travelWidth === "travelAlone"}
+                                        onChange = {this.inputChange}
                                     />
                                 </label>
                                 <label htmlFor="">Travel Width
@@ -70,8 +69,8 @@ class Form extends Component{
                                         type="radio"
                                         name="travelWidth"
                                         value="travelWidth"
-                                        checked={this.state.travelWidth === "travelWidth"}
-                                        onChange={this.inputChange}
+                                        checked = {this.state.travelWidth === "travelWidth"}
+                                        onChange = {this.inputChange}
                                     />
                                 </label>
                             </div>
@@ -80,8 +79,8 @@ class Form extends Component{
                                     <input
                                         type="number"
                                         name="travelersNumber"
-                                        value={this.state.travelersNumber}
-                                        onChange={this.inputChange}
+                                        value = {this.state.travelersNumber}
+                                        onChange = {this.inputChange}
                                     />
                                 </label>
                                 <h3>Travelers number {this.state.travelersNumber}</h3>
@@ -93,8 +92,8 @@ class Form extends Component{
                                         type="radio"
                                         name="gender"
                                         value="male"
-                                        checked={this.state.gender === "male"}
-                                        onChange={this.inputChange}
+                                        checked = {this.state.gender === "male"}
+                                        onChange = {this.inputChange}
                                     />Male
                                 </label>
                                 <label htmlFor="">
@@ -102,16 +101,16 @@ class Form extends Component{
                                         type="radio"
                                         name="gender"
                                         value="female"
-                                        checked={this.state.gender === "female"}
-                                        onChange={this.inputChange}
+                                        checked = {this.state.gender === "female"}
+                                        onChange = {this.inputChange}
                                     />Female
                                 </label>
                             </div>
                             <div className="tourDuration">
                                 <label>Tour Duration
                                     <select
-                                        value={this.state.duration}
-                                        onChange={this.inputChange}
+                                        value = {this.state.duration}
+                                        onChange = {this.inputChange}
                                         name="duration">
                                         <option value="1 week">1 week</option>
                                         <option value="2 week">2 week</option>

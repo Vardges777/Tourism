@@ -9,6 +9,7 @@ import CalculatePrice from "./CalculatePrice"
 import InputPart from "./InputPart"
 import "../../assets/stylesheets/styles.scss";
 
+
 class FindCountry extends Component{
     constructor(){
         super();

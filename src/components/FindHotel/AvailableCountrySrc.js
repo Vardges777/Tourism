@@ -60,6 +60,29 @@ const CountrySrc = {
             img:"https://www.amber-hotels.de/wp-content/uploads/sites/7/2015/05/econtel-berlin-aussenansicht.jpg",
             id:8
         }
+    ],
+    Spain : [
+        {
+            name:"Madrid Grand",
+            location:"Madrid/Spain",
+            priceForOneNight:200,
+            img:"http://falmouth.news/wp-content/uploads/2015/12/Hotel-H10-Spain.jpg",
+            id:9
+        },
+        {
+            name:"Barcelona Heart",
+            location:"Barcelona/Spain",
+            priceForOneNight:130,
+            img:"https://www.businessbrokerspain.com/home/images/Hotel3.jpg",
+            id:10
+        },
+        {
+            name:"Welcome Valencia",
+            location:"Valencia/Spain",
+            priceForOneNight:80,
+            img:"https://www.fbdhotels.com/cmsGallery/imagerow/12628/resized/1600x900/sunset_banner.jpg",
+            id:11
+        }
     ]
 };
 

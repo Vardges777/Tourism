@@ -47,6 +47,7 @@
     .selectedHotelInform{
       display: flex;
       flex-direction: column;
+      width: calc(100% / 3 - 212px);
       color: grey;
       font-size: 25px;
       span{
@@ -59,6 +60,7 @@
       background-color: #2c89b7;
       color: white;
       padding: 10px 35px;
+      height: 60px;
       border: unset;
       margin-bottom: 0;
     }

@@ -1,5 +1,6 @@
 import React from "react"
 
+
 function Order (event){
     let boolean = true;
     let hotelPrice = event.target.parentElement.children[1].children[2].children[1].innerHTML;

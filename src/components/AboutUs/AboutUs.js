@@ -2,6 +2,7 @@ import React from "react";
 import aboutUsSrc from "./aboutUsSrc";
 import "../../assets/stylesheets/styles.scss"
 
+
     function AboutUs(){
         return(
             <div className="container mt-5 pt-5 aboutUS">
