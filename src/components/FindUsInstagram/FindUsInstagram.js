@@ -1,21 +1,21 @@
 import React,{Component} from "react"
 class FindUsInstagram extends Component{
-
+    constructor(){
+        super();
+        this.state = {
+            open:localStorage.getItem('popUp') === null
+        }
+    }
      deleteOffer = () =>{
-         localStorage.setItem("popUp","false")
+        this.setState({
+            open:false
+        })
+         localStorage.setItem('popUp',true)
     };
     render() {
-
+        let storage = this.state.open;
         let application = null;
-        var showContent;
-        let localStoragePopUp = localStorage.getItem("popUp");
-        if (localStoragePopUp === null){
-            showContent=true;
-        }
-        else{
-            showContent=false;
-        }
-        if (showContent){
+        if (storage){
             application=(
                 <div className="container-fluid offerSection text-center">
                     <div className="row">
