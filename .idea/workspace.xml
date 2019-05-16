@@ -3,35 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d4a2564-31f2-4c34-b37d-20ff58aefea7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/.sass-cache/a0e57e7f17086a8627cf2a3f424058fe0ac136ad/findCountry.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/.sass-cache/a0e57e7f17086a8627cf2a3f424058fe0ac136ad/findCountry.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/.sass-cache/a0e57e7f17086a8627cf2a3f424058fe0ac136ad/responsive.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/.sass-cache/a0e57e7f17086a8627cf2a3f424058fe0ac136ad/responsive.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/findCountry.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/findCountry.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/findCountry.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutUs/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs/AboutUs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FindUsInstagram/FindUsInstagram.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindUsInstagram/FindUsInstagram.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MostVisitedCountry/MostVisitedCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MostVisitedCountry/MostVisitedCountry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MostVisitedCountry/visitedCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MostVisitedCountry/visitedCountry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OurTeam/ourTeam.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OurTeam/ourTeam.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/AvailableCountrySrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindHotel/AvailableCountrySrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/CalculatePrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindHotel/CalculatePrice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/CreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindHotel/CreateItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/CreateOrderCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindHotel/CreateOrderCountry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/FindCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindHotel/FindCountryMain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/HandleChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindHotel/HandleChange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/InputPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindHotel/InputPart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/OrderCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindHotel/OrderCountry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/RemoveOrderCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindHotel/RemoveOrderCountry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/findCountry/ShowSearchCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindHotel/ShowSearchCountry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ourAdvantages/advantages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OurAdvantages/advantages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ourAdvantages/advantagesText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OurAdvantages/advantagesText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ourAdvantages/advatngesSrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OurAdvantages/advatngesSrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pageContent/pageContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pageContent/pageContent.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +15,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.7566288">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/FindUsInstagram/FindUsInstagram.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="68">
-                  <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+                  <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/AboutUs/aboutUsSrc.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -189,13 +170,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TourismFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourismFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="FindUsInstagram" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -289,12 +263,12 @@
       <workItem from="1557903118192" duration="17155000" />
       <workItem from="1557941902187" duration="2816000" />
       <workItem from="1557945822987" duration="11429000" />
-      <workItem from="1557991117096" duration="11911000" />
+      <workItem from="1557991117096" duration="16380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281827000" />
+    <option name="totallyTimeSpent" value="286296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
@@ -470,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AboutUs/aboutUsSrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -498,16 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AboutUs/AboutUs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,7 +635,24 @@
     <entry file="file://$PROJECT_DIR$/src/components/FindUsInstagram/FindUsInstagram.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AboutUs/AboutUs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AboutUs/aboutUsSrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
