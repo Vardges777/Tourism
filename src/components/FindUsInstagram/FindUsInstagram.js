@@ -23,7 +23,7 @@ class FindUsInstagram extends Component{
                             <div className="content">
                                 <span onClick={this.deleteOffer}><img src="http://cdn.onlinewebfonts.com/svg/img_377892.png" alt=""/></span>
                                 <h1 className="text-center">
-                                    You can Find us on instagram
+                                    You can find us on instagram
                                 </h1>
                             </div>
                         </div>

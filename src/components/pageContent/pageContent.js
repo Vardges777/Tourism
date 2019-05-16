@@ -1,5 +1,5 @@
 import React from "react"
-import AboutUs from "../../components/AboutUs/aboutUs";
+import AboutUs from "../AboutUs/AboutUs";
 import MostVisitedCountry from "../../components/MostVisitedCountry/MostVisitedCountry"
 import OurAdvantages from "../../components/ourAdvantages/advantages"
 import Form from "../../components/Form/Form"
