@@ -19,7 +19,6 @@ class CreateCountryItem extends Component{
                             <span>1Night/1person  - </span>
                             <h2>{item.priceForOneNight}$</h2>
                         </div>
-
                     </div>
                     <button className="orderBtn" onClick = {this.props.orderClick}>Order</button>
                 </div>

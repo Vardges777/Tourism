@@ -5,9 +5,9 @@ import visitedCountrySrc from "./visitedCountrySrc"
 
 
 function MostVisitedCountry(){
-    const visitedCountry=visitedCountrySrc.map(item=>{
+    const visitedCountry = visitedCountrySrc.map(item=>{
         return(
-            <VisitedCountry key={item.id} sale={item.sale} imageSrc={item.visitedCountrySrc} name={item.countryName} description={item.countryDescription} price={item.tourPrice}/>
+            <VisitedCountry key = {item.id} sale = {item.sale} imageSrc = {item.visitedCountrySrc} name={item.countryName} description={item.countryDescription} price={item.tourPrice}/>
         )
     });
     const countrySectionStyle={
@@ -24,9 +24,7 @@ function MostVisitedCountry(){
                         {visitedCountry}
                     </div>
                 </div>
-
             </div>
-
         </div>
     )
 }

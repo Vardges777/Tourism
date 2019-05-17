@@ -18,7 +18,7 @@ function VisitedCountry(props){
                 </div>
                 <div className="visitedCountryInformation">
                     <h1 className="py-2">{props.name}</h1>
-                    <h1 className="sale" style={style}>Sale</h1>
+                    <h1 className="sale" style = {style}>Sale</h1>
                     <p  className="pb-1">{props.description}</p>
                     <h2 style = {{color:props.sale ? "red":"black"}}>{props.price}</h2>
                 </div>
