@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 import advantagesSrc from "./advatngesSrc";
-import advantagesText from "./advantagesText"
+import advantagesText from "./AdvantagesTextSrc"
 import "../../assets/stylesheets/styles.scss";
 
 class OurAdvantages extends Component{

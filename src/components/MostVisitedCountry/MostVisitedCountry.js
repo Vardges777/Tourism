@@ -1,7 +1,7 @@
 import React from "react"
 import "../../assets/stylesheets/styles.scss"
-import VisitedCountry from "./visitedCountry"
-import visitedCountrySrc from "./visitedCountrySrc"
+import VisitedCountry from "./VisitedCountryItem"
+import visitedCountrySrc from "./VisitedCountrySrc"
 
 
 function MostVisitedCountry(){

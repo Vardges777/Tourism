@@ -11,7 +11,7 @@ class OurTeam extends Component{
         };
     };
     componentDidMount() {
-       setTimeout(() =>  this.apiGet());
+        this.apiGet();
     };
     apiGet() {
         const url = "https://jsonplaceholder.typicode.com/users";

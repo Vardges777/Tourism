@@ -94,7 +94,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/fakeDataBase.js" />
-        <option value="$PROJECT_DIR$/../../storage.html" />
+        <option value="$USER_HOME$/storage.html" />
         <option value="$PROJECT_DIR$/src/components/ourAdvantages/advantages.js" />
         <option value="$PROJECT_DIR$/src/assets/stylesheets/reminderAboutOurOffer.scss" />
         <option value="$PROJECT_DIR$/src/components/localStorage/localStorage.js" />
@@ -396,7 +396,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../storage.html" />
+    <entry file="file://$USER_HOME$/storage.html" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">

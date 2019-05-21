@@ -1,4 +1,4 @@
-const advantagesSrc=[
+const advantagesSrc = [
     {
         advantageTitle:"Safety",
         advantageDescription:"It is very safe with us",
